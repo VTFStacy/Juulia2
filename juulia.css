@@ -81,7 +81,7 @@ p:hover {
 	position:relative;
 	left:50px;
 }
-.imgCont1 img:hover {
+/*.imgCont1 img:hover {
 	max-height: 350px;
 	-moz-transition: height 2s ease;
     -ms-transition: height 2s ease;
@@ -92,7 +92,7 @@ p:hover {
 .imgCont1:hover {
 	right:250px;
 	cursor: pointer;
-}
+}*/
 .video {
 	margin-top:350px;
 	float:right;
