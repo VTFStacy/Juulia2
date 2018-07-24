@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function() {
 function init() {
 
 var i = 1;   
@@ -97,3 +97,4 @@ var content;
 					}
 	})	
 } init();
+}, false);
