@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<link rel = "stylesheet" href = "juulia.css">
+</head>
+<body>
+
+<a href="juulia.html"> <div class="backgroundImg">
+	
+</div></a>
+
+<script >
+	$('a').click(function(e) {
+e.preventDefault();
+newLocation = this.href;
+$('body').fadeOut(2000, newpage);
+});
+function newpage() {
+window.location = newLocation;
+}
+</script>
+</body>
+</html>
