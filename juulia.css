@@ -1,0 +1,258 @@
+html { 
+  /*background: url("necronomicat3-noEnter.png") no-repeat center center fixed; 
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-color: 	#8B0000;
+} 
+.backgroundImg {
+	position:absolute;
+	z-index: 0;
+	display: block;
+    /*background-image: url("necronomicat3-noEnter.png");*/
+    background-color: black;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80%;
+    width:80%;
+    top: 10%;
+	left: 10%;
+}
+.text {
+	z-index: 2;
+	position: relative;
+	float:left;
+	width:100%;
+	top:15%;
+}
+p {
+	text-decoration-color: white;
+	font-size: 100px;
+	display: inline;
+	visibility: hidden;
+ 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: center; 
+}
+
+p:hover {
+	color:black;
+	cursor: pointer;
+}
+
+.gone {
+	visibility: visible;
+}
+
+.imgCont {
+	float:right;
+	position:relative;
+	right:20px;
+	top:100px;
+}
+.imgCont img {
+	max-width:200px;
+	max-height:auto;
+}
+.imgCont1 {
+	float:right;
+	position:relative;
+	right:300px;
+	top:150px;
+}
+.imgCont1 img {
+	max-width: auto;
+	max-height: 300px;
+	 -moz-transition: height 0.7s ease;
+    -ms-transition: height 0.7s ease;
+    -o-transition: height 0.7s ease;
+    -webkit-transition: height 0.7s ease;
+    transition: height 0.7s ease;
+}
+.vidCont {
+	margin-top:190px;
+	float:left;
+	position:relative;
+	left:50px;
+}
+.imgCont1 img:hover {
+	max-height: 350px;
+	-moz-transition: height 2s ease;
+    -ms-transition: height 2s ease;
+    -o-transition: height 2s ease;
+    -webkit-transition: height 2s ease;
+    transition: height 2s ease;
+}
+.imgCont1:hover {
+	right:250px;
+	cursor: pointer;
+}
+.video {
+	margin-top:400px;
+	float:right;
+	position: absolute;
+	margin-left: 1000px;
+}
+
+.money {
+	position: absolute;
+	top:600px;
+	left:500px;
+	width: 300px;
+	max-height: 200px;
+}
+.total {
+	color:white;
+	font-family: 'Helvetica Neue', sans-serif; 
+
+}
+.total1 {
+	color:white;
+	font-family: 'Helvetica Neue', sans-serif; 
+}
+.pop-up {
+	float:right;
+	left:400px;
+	top:400px;
+
+}
+.pop-up p {
+	color: white;
+	size:400px;
+
+}
+/*dont need this anymore thhis is for adding the background after*/
+/*
+.back {
+	background-image: url("necronomicat3-noEnter.png");
+	-webkit-transition: opacity 3s ease-in;
+	-webkit-transition: visibility 1s ease-in;
+	opacity: 1;
+	visibility: visible;
+
+}
+table {
+	position: absolute; 
+	height:100%;
+	width:100%;
+ 	top: 0; 
+ 	bottom: 0; 
+ 	left: 0; 
+ 	right: 0;
+ 	background-color: transparent;
+ 	border: 1px solid black;
+ 	border-collapse: collapse;
+
+
+}
+
+td {
+	height:33.33%;
+	width: 33.33%;
+	border: 1px solid black;
+	background: radial-gradient(rgba(0,0,0,0.9), rgba(0,0,0,1));
+	background-color:rgba(20,20,20,1);
+	
+}
+
+.gone {
+	/*background-color: transparent;
+ 	visibility: visible;
+ 	/*-webkit-transition: opacity 3s ease;
+   -moz-transition: opacity 3s ease;
+   -o-transition: opacity 3s ease;
+   transition: opacity 3s ease-in;
+  /* -webkit-transition: visibility 3s ease;
+  -moz-transition: visibility 3s ease;
+  -o-transition: visibility 3s ease;
+  transition: visibility 3s ease-in;
+  transition: opacity .55s ease-in-out;
+   -moz-transition: opacity .55s ease-in-out;
+   -webkit-transition: opacity .55s ease-in-out;
+  opacity: 1;
+}
+
+.sCat img {
+	
+	transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+	/*-webkit-transition: opacity 3s ease;
+   -moz-transition: opacity 3s ease;
+   -o-transition: opacity 3s ease;
+   transition: opacity 3s ease-in;
+}
+
+.sCat {
+	position:absolute;
+	margin-left:60%;
+	margin-top: 16%;
+	height:350px;
+	width:400px;
+	z-index:3;
+	background-color: transparent;
+	
+}
+
+.logo {
+	position:absolute;
+	margin-left:30%;
+	margin-top: 8%;
+	height:490px;
+	width:400px;
+	z-index:2;
+	visibility: hidden;
+}
+
+.namesolo {
+	position:absolute;
+	margin-left:20%;
+	margin-top: 8%;
+	height:490px;
+	width:700px;
+	z-index:4;
+	visibility: hidden;
+}
+
+/*TRY 2 this is for enter
+
+.enterImg {
+	position:absolute;
+	margin-left:43%;
+	margin-top: 40%;
+	height:0px;
+	width:40px;
+	cursor: pointer;
+    -moz-transition: height 0.7s ease;
+    -ms-transition: height 0.7s ease;
+    -o-transition: height 0.7s ease;
+    -webkit-transition: height 0.7s ease;
+    transition: height 0.7s ease;
+    z-index:5;
+}
+
+div > img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.display {
+	visibility: hidden;
+}
+
+/* for the enter sign 
+.increase {
+	height:80px;
+	width:auto;
+}
+
+.decrease {
+	height:65px;
+	width:auto;
+}
+*/
