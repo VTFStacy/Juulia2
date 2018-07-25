@@ -138,36 +138,37 @@ p {
 	float:right;
 	position:relative;
 	right:10px;
-	top:50px;
+	top:75px;
 }
 .imgCont img {
-	max-width:100px;
+	max-width:45%;
 	max-height:auto;
+	float: right;
 }
 .imgCont1 {
-	float:right;
+	float:left;
+	left:10px;
 	position:relative;
-	right:10px;
-	top:70px;
+	top:75px;
 }
 .imgCont1 img {
 	max-width: auto;
-	max-height: 100px;
-	 -moz-transition: height 0.7s ease;
-    -ms-transition: height 0.7s ease;
-    -o-transition: height 0.7s ease;
-    -webkit-transition: height 0.7s ease;
-    transition: height 0.7s ease;
+	max-width: 50%;
+	float: left;
 }
+
 .vidCont {
 	margin-top:120px;
 	float:left;
 	position:relative;
 	left:25px;
+	visibility: hidden;
 }
 
 #myVideo {
-	height:100px;
+	max-width: 20%;
+	visibility: hidden;
+
 }
 
 .money {
@@ -176,5 +177,6 @@ p {
 	left:100px;
 	width: 200px;
 	max-height: 100px;
+	visibility: hidden;
 
     }
