@@ -127,132 +127,54 @@ p:hover {
 	size:400px;
 
 }
-/*dont need this anymore thhis is for adding the background after*/
-/*
-.back {
-	background-image: url("necronomicat3-noEnter.png");
-	-webkit-transition: opacity 3s ease-in;
-	-webkit-transition: visibility 1s ease-in;
-	opacity: 1;
-	visibility: visible;
 
-}
-table {
-	position: absolute; 
-	height:100%;
-	width:100%;
- 	top: 0; 
- 	bottom: 0; 
- 	left: 0; 
- 	right: 0;
- 	background-color: transparent;
- 	border: 1px solid black;
- 	border-collapse: collapse;
+@media only screen and (max-width: 480px) {
 
-
+p {
+	font-size: 30px;
 }
 
-td {
-	height:33.33%;
-	width: 33.33%;
-	border: 1px solid black;
-	background: radial-gradient(rgba(0,0,0,0.9), rgba(0,0,0,1));
-	background-color:rgba(20,20,20,1);
-	
+.imgCont {
+	float:right;
+	position:relative;
+	right:10px;
+	top:50px;
 }
-
-.gone {
-	/*background-color: transparent;
- 	visibility: visible;
- 	/*-webkit-transition: opacity 3s ease;
-   -moz-transition: opacity 3s ease;
-   -o-transition: opacity 3s ease;
-   transition: opacity 3s ease-in;
-  /* -webkit-transition: visibility 3s ease;
-  -moz-transition: visibility 3s ease;
-  -o-transition: visibility 3s ease;
-  transition: visibility 3s ease-in;
-  transition: opacity .55s ease-in-out;
-   -moz-transition: opacity .55s ease-in-out;
-   -webkit-transition: opacity .55s ease-in-out;
-  opacity: 1;
+.imgCont img {
+	max-width:100px;
+	max-height:auto;
 }
-
-.sCat img {
-	
-	transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
-	/*-webkit-transition: opacity 3s ease;
-   -moz-transition: opacity 3s ease;
-   -o-transition: opacity 3s ease;
-   transition: opacity 3s ease-in;
+.imgCont1 {
+	float:right;
+	position:relative;
+	right:10px;
+	top:70px;
 }
-
-.sCat {
-	position:absolute;
-	margin-left:60%;
-	margin-top: 16%;
-	height:350px;
-	width:400px;
-	z-index:3;
-	background-color: transparent;
-	
-}
-
-.logo {
-	position:absolute;
-	margin-left:30%;
-	margin-top: 8%;
-	height:490px;
-	width:400px;
-	z-index:2;
-	visibility: hidden;
-}
-
-.namesolo {
-	position:absolute;
-	margin-left:20%;
-	margin-top: 8%;
-	height:490px;
-	width:700px;
-	z-index:4;
-	visibility: hidden;
-}
-
-/*TRY 2 this is for enter
-
-.enterImg {
-	position:absolute;
-	margin-left:43%;
-	margin-top: 40%;
-	height:0px;
-	width:40px;
-	cursor: pointer;
-    -moz-transition: height 0.7s ease;
+.imgCont1 img {
+	max-width: auto;
+	max-height: 100px;
+	 -moz-transition: height 0.7s ease;
     -ms-transition: height 0.7s ease;
     -o-transition: height 0.7s ease;
     -webkit-transition: height 0.7s ease;
     transition: height 0.7s ease;
-    z-index:5;
+}
+.vidCont {
+	margin-top:120px;
+	float:left;
+	position:relative;
+	left:25px;
 }
 
-div > img {
-	max-height: 100%;
-	max-width: 100%;
-}
-.display {
-	visibility: hidden;
+#myVideo {
+	height:100px;
 }
 
-/* for the enter sign 
-.increase {
-	height:80px;
-	width:auto;
-}
+.money {
+	position: absolute;
+	top:300px;
+	left:100px;
+	width: 200px;
+	max-height: 100px;
 
-.decrease {
-	height:65px;
-	width:auto;
-}
-*/
+    }
