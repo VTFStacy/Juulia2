@@ -1,0 +1,47 @@
+html {
+  background-color:     #8B0000;
+    }
+p { 
+    font-size:60px;
+    color:white; 
+    z-index: 2;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+}
+.back {
+    position: absolute;
+}
+
+a {
+    cursor: pointer;
+}
+.backgroundImg {
+	position:absolute;
+	z-index: 0;
+	display: block;
+    /*background-image: url("necronomicat3-noEnter.png");*/
+    background-color: black;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80%;
+    width:80%;
+    top: 10%;
+	left: 10%;
+}
+.content {
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+}
+.vid {
+    position: relative;
+    left:20%;
+    top:5%;
+    border:0px;
+}

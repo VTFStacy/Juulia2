@@ -96,5 +96,27 @@ var content;
 						}
 					}
 	})	
+
+
+
+
+
 } init();
 }, false);
+
+function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+               }
+
+
+$('.imgCont1 a').click(function(e) {
+e.preventDefault();
+play();
+newLocation = this.href;
+$('.content').fadeOut(5000, newpage);
+});
+
+function newpage() {
+window.location = newLocation;
+}
