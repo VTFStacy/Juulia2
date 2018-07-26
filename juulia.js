@@ -109,7 +109,6 @@ function play(){
        audio.play();
                }
 
-
 $('.imgCont1 a').click(function(e) {
 e.preventDefault();
 play();

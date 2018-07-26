@@ -41,11 +41,6 @@ p {
 	text-align: center; 
 }
 
-p:hover {
-	color:black;
-	cursor: pointer;
-}
-
 .gone {
 	visibility: visible;
 }
@@ -63,17 +58,26 @@ p:hover {
 .imgCont1 {
 	float:right;
 	position:relative;
-	right:150px;
-	top:150px;
+	right:140px;
+	top:100px;
 }
 .imgCont1 img {
 	max-width: auto;
-	max-height: 200px;
-	 -moz-transition: height 0.7s ease;
-    -ms-transition: height 0.7s ease;
-    -o-transition: height 0.7s ease;
-    -webkit-transition: height 0.7s ease;
-    transition: height 0.7s ease;
+	max-height: 250px;
+	-moz-transition: opacity 0.7s ease;
+    -ms-transition: opacity 0.7s ease;
+    -o-transition: opacity 0.7s ease;
+    -webkit-transition: opacity 0.7s ease;
+    transition: opacity 0.7s ease;
+}
+
+.imgCont1 img:hover {
+	opacity: 0.6;
+	 -moz-transition: opacity 0.7s ease;
+    -ms-transition: opacity 0.7s ease;
+    -o-transition: opacity 0.7s ease;
+    -webkit-transition: opacity 0.7s ease;
+    transition: opacity 0.7s ease;
 }
 .vidCont {
 	margin-top:120px;
