@@ -11,13 +11,15 @@ var content;
 					var content = document.querySelector(".total").textContent;
 				}
 					function addItem(){
-						document.querySelector(".add__value").onchange = function(){
+						document.querySelector(".add__thing").onchange = function(){
 							document.querySelector(".total").textContent = content + " // " +
-							document.querySelector(".add__description").value + ' gave ' + document.querySelector(".add__value").value +' things';
+							document.querySelector(".add__description").value + ' gave ' + document.querySelector(".add__value").value + ' ' + document.querySelector(".add__thing").value;
 							function changeB () {
 								document.querySelector(".add__value").value = 0;
 								var content = document.querySelector(".total").textContent;
-								}changeB();
+								console.log('age');
+								}
+							changeB();
 						}
 					}
 	})	
