@@ -1,0 +1,74 @@
+html { 
+  background-color: 	#8B0000;
+} 
+.backgroundImg {
+	position:absolute;
+	z-index: 0;
+	display: block;
+    background-color: black;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80%;
+    width:80%;
+    top: 10%;
+	left: 10%;
+}
+.money {
+	position: absolute;
+	top:20%;
+	left:18%;
+	width: 80%;
+	max-height: 200px;
+}
+
+.total {
+	color:white;
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 20px;
+	letter-spacing: -1px; 
+	line-height: 1; 
+
+}
+.total1 {
+	color:white;
+	font-family: 'Helvetica Neue', sans-serif; 
+}
+
+.back {
+    position: absolute;
+     font-size:60px;
+    color:white; 
+    z-index: 2;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+}
+
+/*
+.money {
+	position: relative;
+	width: 95%;
+	max-height: 200px;
+	background-color: red;
+}
+.please {
+	text-align: left;
+}
+
+tr p {
+	height:20px;
+	font-size:20px;
+}
+*/

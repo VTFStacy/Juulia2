@@ -77,8 +77,9 @@ function letterLoop(){
 
 
 document.getElementById("myVideo").load();
-var content;
+
 //giving juulia money 
+var content;
 	document.addEventListener('keypress', function(event) {
 				if (event.keyCode === 13 || event.which === 13){
 					addItem();
@@ -104,14 +105,29 @@ var content;
 } init();
 }, false);
 
+
 function play(){
        var audio = document.getElementById("audio");
        audio.play();
                }
 
+function playV(){
+       var audioV = document.getElementById("audioV");
+       audioV.play();
+               }
+window.onload = function() {
+    playV();
+}
+
 $('.imgCont1 a').click(function(e) {
 e.preventDefault();
 play();
+newLocation = this.href;
+$('.content').fadeOut(5000, newpage);
+});
+
+$('.vidCont a').click(function(e) {
+e.preventDefault();
 newLocation = this.href;
 $('.content').fadeOut(5000, newpage);
 });

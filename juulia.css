@@ -60,18 +60,20 @@ p {
 	position:relative;
 	right:140px;
 	top:100px;
-}
-.imgCont1 img {
-	max-width: auto;
-	max-height: 250px;
+		opacity: 1;
 	-moz-transition: opacity 0.7s ease;
     -ms-transition: opacity 0.7s ease;
     -o-transition: opacity 0.7s ease;
     -webkit-transition: opacity 0.7s ease;
     transition: opacity 0.7s ease;
 }
+.imgCont1 img {
+	max-width: auto;
+	max-height: 250px;
 
-.imgCont1 img:hover {
+}
+
+.imgCont1:hover {
 	opacity: 0.6;
 	 -moz-transition: opacity 0.7s ease;
     -ms-transition: opacity 0.7s ease;
@@ -80,7 +82,7 @@ p {
     transition: opacity 0.7s ease;
 }
 .vidCont {
-	margin-top:120px;
+	margin-top:100px;
 	float:left;
 	position:relative;
 	left:50px;
